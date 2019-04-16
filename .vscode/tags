@@ -1,0 +1,50 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/54afb0f/
+ALLOWED_HOSTS	../timeneye_summaries/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../timeneye_summaries/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:88
+BASE_DIR	../timeneye_summaries/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+Choice	../polls/models.py	/^class Choice(models.Model)$/;"	kind:class	line:7
+DATABASES	../timeneye_summaries/settings.py	/^DATABASES = {$/;"	kind:variable	line:77
+DEBUG	../timeneye_summaries/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+INSTALLED_APPS	../timeneye_summaries/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	../timeneye_summaries/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:107
+MIDDLEWARE	../timeneye_summaries/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:43
+PollsConfig	../polls/apps.py	/^class PollsConfig(AppConfig):$/;"	kind:class	line:4
+Question	../polls/models.py	/^class Question(models.Model)$/;"	kind:class	line:3
+ROOT_URLCONF	../timeneye_summaries/settings.py	/^ROOT_URLCONF = 'timeneye_summaries.urls'$/;"	kind:variable	line:53
+SECRET_KEY	../timeneye_summaries/settings.py	/^SECRET_KEY = 'iutk@zjo0jb+z47ezpka(tf5l=z-c3!hzuz0)6pf5r1l4wwlr7'$/;"	kind:variable	line:23
+STATIC_URL	../timeneye_summaries/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:121
+TEMPLATES	../timeneye_summaries/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:55
+TIME_ZONE	../timeneye_summaries/settings.py	/^TIME_ZONE = 'EST'$/;"	kind:variable	line:109
+USE_I18N	../timeneye_summaries/settings.py	/^USE_I18N = True$/;"	kind:variable	line:111
+USE_L10N	../timeneye_summaries/settings.py	/^USE_L10N = True$/;"	kind:variable	line:113
+USE_TZ	../timeneye_summaries/settings.py	/^USE_TZ = True$/;"	kind:variable	line:115
+WSGI_APPLICATION	../timeneye_summaries/settings.py	/^WSGI_APPLICATION = 'timeneye_summaries.wsgi.application'$/;"	kind:variable	line:71
+__init__.py	../polls/__init__.py	1;"	kind:file	line:1
+__init__.py	../polls/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../timeneye_summaries/__init__.py	1;"	kind:file	line:1
+admin.py	../polls/admin.py	1;"	kind:file	line:1
+application	../timeneye_summaries/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../polls/apps.py	1;"	kind:file	line:1
+choice_text	../polls/models.py	/^    choice_text = models.CharField(max_length=200)$/;"	kind:variable	line:9
+index	../polls/views.py	/^def index(request):$/;"	kind:function	line:4
+manage.py	../manage.py	1;"	kind:file	line:1
+models.py	../polls/models.py	1;"	kind:file	line:1
+name	../polls/apps.py	/^    name = 'polls'$/;"	kind:variable	line:5
+pub_date	../polls/models.py	/^    pub_date = models.DateTimeField('date published')$/;"	kind:variable	line:5
+question	../polls/models.py	/^    question = models.ForeignKey(Question, on_delete = models.CASCADE)$/;"	kind:variable	line:8
+question_text	../polls/models.py	/^    question_text = models.CharField(max_length=200)$/;"	kind:variable	line:4
+settings.py	../timeneye_summaries/settings.py	1;"	kind:file	line:1
+tests.py	../polls/tests.py	1;"	kind:file	line:1
+urlpatterns	../polls/urls.py	/^urlpatterns = [$/;"	kind:variable	line:6
+urlpatterns	../timeneye_summaries/urls.py	/^urlpatterns = [$/;"	kind:variable	line:6
+urls.py	../polls/urls.py	1;"	kind:file	line:1
+urls.py	../timeneye_summaries/urls.py	1;"	kind:file	line:1
+views.py	../polls/views.py	1;"	kind:file	line:1
+votes	../polls/models.py	/^    votes = models.IntegerField(default=0)$/;"	kind:variable	line:10
+wsgi.py	../timeneye_summaries/wsgi.py	1;"	kind:file	line:1
