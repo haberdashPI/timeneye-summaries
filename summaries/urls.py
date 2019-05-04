@@ -4,6 +4,5 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('authenticate', views.authenticate),
-    path('summary/<str:token>', views.summary)
+    path('authenticate', views.authenticate)
 ]

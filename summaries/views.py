@@ -1,8 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.views.decorators.http import require_GET
-from django.shortcuts import redirect
-from datetime import datetime, timedelta
 
 import requests
 from base64 import b64encode
@@ -15,7 +13,6 @@ clientId = "a7771414caca7f457a85a8f2fd63c1b7"
 with open('secret','r') as file:
     secret = file.read()
 
-# TODO: store tokens by user in a database and refresh them as needed
 @require_GET
 def authenticate(request):
     auth_code = request.GET['code']
@@ -25,18 +22,13 @@ def authenticate(request):
     response = requests.request("GET",url,headers=headers)
     resp = json.loads(response.content)
 
+<<<<<<< Updated upstream
+    return HttpResponse("Good job! Access token is "+resp["accessToken"])
+
+
+=======
     return redirect('/timeneye/summary/'+resp["accessToken"])
 
 def summary(request,token):
-    oneweek = datetime.today() - timedelta(weeks=1)
-    onemonth = datetime.today() - timedelta(days=30)
-
-    url = "https://track.timeneye.com/api/3/entries"
-    headers = {'Bearer': token}
-    query = {"dateFrom": oneweek.strftime('%Y-%m-%d')}
-    response = requests.request("GET",url,headers=headers)
-    resp = json.loads(response.content)
-
-    return HttpResponse(response.content)
-
-
+    return render(request, 'summaries/app.html')
+>>>>>>> Stashed changes
