@@ -5,8 +5,14 @@ we now have the ability to get an access token
 next step is to have the authorization page redirect
 to a paritcular view
 
+# initial client
+
 the first view I want to make should just show the percentages for
 each phase category in the past week & month
+
+to get this working, I need to setup a javascript app
+
+## Next steps
 
 next step would be to compare these percentages to some ideal levels
 
